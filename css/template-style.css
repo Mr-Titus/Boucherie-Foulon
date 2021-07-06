@@ -163,6 +163,7 @@ ul.text-list, ol.text-list {
 ul.text-list ul, ol.text-list ol {
   padding: 0 14px;
 }
+
 iframe {
   display: block;
   margin: 0;
@@ -323,6 +324,7 @@ video {
   color: #002633;
   font-size: 0.85rem;
   padding: 0.7em 1.25em;
+  height: 5%;
 }
 nav {
   border-bottom: 4px solid rgba(0, 0, 0, 0.05);
@@ -330,26 +332,33 @@ nav {
   padding: 1.7rem 0;
   position: relative;
   z-index: 2;
+  height: 5%;
 }  
 .top-nav ul ul {
-  background: #002633 none repeat scroll 0 0;
+  background: rgb(34, 34, 34) none repeat scroll 0 0;
+  height: 5%;
 
 }
 .top-nav li ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  height: 5%;
 }
 .top-nav li ul li:last-child {
   border-bottom: 0;
+  height: 5%;
 }
 .top-nav li ul li a, .background-white .top-nav li ul li a, .top-nav .active-item li a {
-  background: #002633 none repeat scroll 0 0;
-  color: rgba(255,255,255, 0.75);
+  background: rgb(34, 34, 34) none repeat scroll 0 0;
+  color: rgb(34, 34, 34);
+  height: 5%;
 }
 ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .aside-submenu > a::after, ul.chevron .aside-sub-submenu > a::after {
   margin: 0 0 0 0.625rem;
+  height: 5%;
 }
 .top-nav ul ul a {
   color: #eee;
+  height: 5%;
 }
 .sticky {
   transition: all 0.20s linear 0s;
@@ -668,7 +677,7 @@ aside.aside-left {
   padding: 1.25rem!important;
 }
 .padding-2x {
-  padding: 2.5rem!important;
+  padding: 1rem!important;
 }
 .full-width:after {
   clear:both;
@@ -1187,6 +1196,7 @@ a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 .primary-color-primary .background-primary-hightlight a.tab-label.active-btn, .primary-color-primary .background-primary-hightlight a.tab-label:hover {
   background: rgb(255, 255, 255) none repeat scroll 0 0;
   color: rgb(34, 34, 34);
+  border-radius: 40px;
 }
 .background-dark-hightlight a.tab-label.active-btn, .background-dark-hightlight a.tab-label:hover,
 .primary-color-dark .background-primary-hightlight a.tab-label.active-btn, .primary-color-dark .background-primary-hightlight a.tab-label:hover {
@@ -1929,12 +1939,12 @@ nav {
   display:none;
 }
 nav.fixed, .fixed nav {
-  background: rgba(255, 255, 255, 0.925);
+  background: rgb(34, 34, 34);
   border-bottom: 1px solid rgba(255, 255, 255, 0.925);
   padding: 0 2em;
 }
 nav.fixed .top-nav li a, .fixed nav .top-nav li a {
-  color: #444;  
+  color: rgb(255, 255, 255);  
 }
 nav.fixed .logo-white, .fixed nav .logo-white {
   display:none;
@@ -1982,7 +1992,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
 
 .background-transparent-hightlight .top-nav .active-item > a, .background-transparent-hightlight .top-nav li a:hover, .background-transparent-hightlight .aside-nav li a:hover, .background-transparent-hightlight .aside-nav > ul > li.active-item > a:link, .background-transparent-hightlight .aside-nav > ul > li.active-item > a:visited {
   background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
-  color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
   opacity: 1;
   border-radius: 40px;
 }
