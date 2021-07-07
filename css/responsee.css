@@ -893,7 +893,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     left:-100%;
     width:100%!important;
     bottom:0;
-    background:none repeat scroll 0 0 #1c3849;
+    background:none repeat scroll 0 0 rgb(34, 34, 34);
     overflow-y:auto;
     transition:left 0.20s linear 0s;
     -o-transition:left 0.20s linear 0s;
@@ -920,7 +920,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     position:fixed;
     top:0;
   	left:0;
-  	background:none repeat scroll 0 0 #1c3849;
+  	background:none repeat scroll 0 0 rgb(34, 34, 34);
   	height:60px;
   	width:60px;
   	text-align:center;

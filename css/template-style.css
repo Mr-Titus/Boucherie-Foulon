@@ -653,6 +653,9 @@ aside.aside-left {
   background: #002633 none repeat scroll 0 0;
   color: #fff;
 }
+.button:hover{
+  background-color: rgb(34, 34, 34);
+}
 
 /* Containers */
 .section  { 
@@ -2073,7 +2076,7 @@ video {
     display:block;
   }
   .nav-text::after {
-    color: #002633;
+    color: #ffffff;
   }
   .fixed {
     position: relative;
@@ -2084,13 +2087,13 @@ video {
   }
   .top-nav li a,.top-nav li ul li a {
     border-top: 0;
-    color: #fff!important;
+    color: rgb(255, 255, 255)!important;
     opacity: 1;
   }
   .top-nav li a, .background-white .top-nav li a {
-    background: none repeat scroll 0 0 #1c3849;
+    background: none repeat scroll 0 0 rgb(34, 34, 34);
     font-size: 1.5em;
-    padding: 1.2em 1em;
+    padding: 0.8em 1em;
   }
   .top-nav li ul li a {
     background: #405b6b !important;
@@ -2133,5 +2136,4 @@ video {
     text-align: center;
     margin: 0 auto;
   }
-  
 }    
