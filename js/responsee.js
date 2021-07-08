@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {
   //Mobile navigation
   $('.nav-text').click(function() { 
     $("body").toggleClass('show-menu');
-  });  
+  });
   //Custom forms
   $(function() {
     var input = document.createElement("input");

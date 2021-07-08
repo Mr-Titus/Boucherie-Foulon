@@ -888,10 +888,14 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .top-nav li ul li ul li a { background:none repeat scroll 0 0 #456274;}
   .top-nav {
     position:fixed;
+    border: solid 3px;
+    border-left: rgb(255, 255, 255);
+    border-top: white;
+    border-bottom: white;
     top:0;
     z-index:10;
     left:-100%;
-    width:100%!important;
+    width:33%!important;
     bottom:0;
     background:none repeat scroll 0 0 rgb(34, 34, 34);
     overflow-y:auto;
@@ -914,6 +918,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   }
   .nav-text {
     color:#fff;
+    
     display:inline-block;
     margin-right:0;
     width:auto;
@@ -927,6 +932,9 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   	line-height:60px;
   	z-index:50;
   	padding-top:15px;
+    border: solid 3px;
+    border-left: white;
+    
   }  
   .mobile-nav-right .top-nav {
     left:100%;

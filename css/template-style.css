@@ -8,6 +8,7 @@ html{
   height: 15rem;         /* hauteur de la partie fixe */
   margin-top: -15rem;    /* moins la hauteur de la partie fixe */
 }
+
 /* Typography */
 body {
   background: rgb(34, 34, 34);
@@ -2092,7 +2093,7 @@ video {
   }
   .top-nav li a, .background-white .top-nav li a {
     background: none repeat scroll 0 0 rgb(34, 34, 34);
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 0.8em 1em;
   }
   .top-nav li ul li a {
