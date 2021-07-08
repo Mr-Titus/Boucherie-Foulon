@@ -2,6 +2,10 @@
 html{
   scroll-behavior: smooth;
 }
+#btn:hover{
+cursor: pointer;
+opacity: 1;
+}
 :target::before {
   content: " ";
   display: block;
@@ -1957,7 +1961,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
   display:block;
 }  
 .background-transparent {
-  background: none;
+  background: rgb(34, 34, 34);
 }
 
 .logo img {
